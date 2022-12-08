@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone the repo') {
             steps {
-                echo 'clone the repo from git'
+                echo 'clone the repo git'
                 sh 'rm -fr html'
                 sh 'git clone https://github.com/dmccuk/html.git'
             }
